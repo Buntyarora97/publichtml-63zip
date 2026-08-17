@@ -236,7 +236,6 @@ ayodhyarammandir/
  index.php              # Home page
  page.php               # Dynamic page template
  contact.php            # Contact page
- donation.php           # Donation page
  gallery.php            # Gallery page
  ayodhyarammandir.sql   # Database file
  README.md              # This file
@@ -281,8 +280,8 @@ Login to Admin > AdSense to add your Google AdSense codes.
 
 For any issues or questions:
 - Email: info@ayodhyarammandir.in
-- Phone: +91-7988145192
-- WhatsApp: +91-7988145192
+- Phone: +91-8168877332
+- WhatsApp: +91-8168877332
 
 ---
 

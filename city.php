@@ -288,13 +288,6 @@ include __DIR__ . '/includes/header.php';
                         </div>
                     </div>
                     
-                    <!-- Donation Widget -->
-                    <div class="sidebar-widget text-center" style="background:linear-gradient(135deg,#F55900,#FF8237);color:#fff;">
-                        <i class="fas fa-hand-holding-heart fa-2x mb-3"></i>
-                        <h4 style="color:#fff"><?php echo __t('Support Ram Mandir','राम मंदिर को सहयोग'); ?></h4>
-                        <p style="color:rgba(255,255,255,.9);font-size:13px"><?php echo __t('Help spread Ram Bhakti','राम भक्ति फैलाने में सहयोग करें'); ?></p>
-                        <a href="donation.php" class="btn btn-light btn-sm mt-2 fw-bold"><?php echo __t('Donate','दान करें'); ?></a>
-                    </div>
                 </div>
             </div>
         </div>

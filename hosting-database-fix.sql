@@ -23,3 +23,42 @@ CREATE TABLE IF NOT EXISTS `keyword_pages` (
   KEY `idx_keyword_pages_status` (`status`),
   KEY `idx_keyword_pages_keyword` (`keyword`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+/*
+ * Site updates:
+ * - normalize the public phone and WhatsApp number
+ * - hide any donation links that may have been imported into CMS menus/footer
+ * - keep the AdSense client setting available for the shared header
+ *
+ * This does not delete donation tables or existing records.
+ */
+UPDATE `settings`
+SET `setting_value` = '8168877332'
+WHERE `setting_key` = 'site_phone';
+
+UPDATE `settings`
+SET `setting_value` = '918168877332'
+WHERE `setting_key` = 'contact_whatsapp';
+
+UPDATE `admins`
+SET `phone` = '8168877332'
+WHERE `phone` IN ('7988145192', '917988145192');
+
+INSERT INTO `settings` (`setting_key`, `setting_value`, `setting_label`, `setting_group`, `is_public`)
+SELECT 'adsense_client', '', 'AdSense Publisher ID (ca-pub-...)', 'adsense', 1
+WHERE NOT EXISTS (
+    SELECT 1 FROM `settings` WHERE `setting_key` = 'adsense_client'
+);
+
+UPDATE `footer_links`
+SET `status` = 0
+WHERE LOWER(`title`) LIKE '%donat%'
+   OR LOWER(`title_hi`) LIKE '%दान%'
+   OR LOWER(`url`) LIKE '%donat%';
+
+UPDATE `menu_items`
+SET `status` = 0
+WHERE LOWER(`title`) LIKE '%donat%'
+   OR LOWER(`title_hi`) LIKE '%दान%'
+   OR LOWER(`url`) LIKE '%donat%'
+   OR LOWER(`page_slug`) LIKE '%donat%';

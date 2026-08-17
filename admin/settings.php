@@ -108,7 +108,7 @@ include __DIR__ . '/includes/admin-header.php';
                 </div>
                 <div class="mb-3">
                     <label class="form-label">WhatsApp Number <small class="text-muted">(with country code, no +)</small></label>
-                    <input type="text" name="settings[contact_whatsapp]" class="form-control" value="<?php echo e($s['contact_whatsapp'] ?? ''); ?>" placeholder="917988145192">
+                    <input type="text" name="settings[contact_whatsapp]" class="form-control" value="<?php echo e($s['contact_whatsapp'] ?? ''); ?>" placeholder="918168877332">
                 </div>
                 <div class="mb-3">
                     <label class="form-label">Phone Number</label>

@@ -45,13 +45,13 @@ foreach ($corePages as $slug) {
 $urls[] = ['url' => $baseUrl . '/gallery.php', 'changefreq' => 'daily', 'priority' => '0.8', 'lastmod' => date('Y-m-d')];
 $urls[] = ['url' => $baseUrl . '/city.php', 'changefreq' => 'weekly', 'priority' => '0.8', 'lastmod' => date('Y-m-d')];
 $urls[] = ['url' => $baseUrl . '/keyword.php', 'changefreq' => 'weekly', 'priority' => '0.7', 'lastmod' => date('Y-m-d')];
-$urls[] = ['url' => $baseUrl . '/donation.php', 'changefreq' => 'monthly', 'priority' => '0.7', 'lastmod' => date('Y-m-d')];
 
 // Dynamic pages from database
 try {
     // Pages table
     $pages = dbFetchAll("SELECT slug, updated_at FROM pages WHERE status = 'published'");
     foreach ($pages as $p) {
+        if (in_array($p['slug'], ['donation', 'prasad'], true)) continue;
         $urls[] = ['url' => $baseUrl . '/' . $p['slug'], 'changefreq' => 'weekly', 'priority' => '0.8', 'lastmod' => substr($p['updated_at'] ?? date('Y-m-d'), 0, 10)];
     }
     

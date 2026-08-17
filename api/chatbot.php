@@ -95,11 +95,6 @@ $defaultResponses = [
         'en' => 'You can contact us at: Phone: +91-8168877332, Email: info@ayodhyarammandir.in, Official Email: officialayodhyarammandir.in@gmail.com, Address: Ayodhya Dham, Uttar Pradesh, India. WhatsApp: +91-8168877332',
         'hi' => 'आप हमसे संपर्क कर सकते हैं: फोन: +91-8168877332, ईमेल: info@ayodhyarammandir.in, आधिकारिक ईमेल: officialayodhyarammandir.in@gmail.com, पता: अयोध्या धाम, उत्तर प्रदेश, भारत। व्हाट्सएप: +91-8168877332'
     ],
-    'donation' => [
-        'keywords' => ['donation', 'donate', 'dan', 'prasad', 'seva', 'contribution'],
-        'en' => 'You can donate to support our devotional portal and temple activities. UPI: ayodhyarammandir@upi, Bank: State Bank of India, Account: 12345678901, IFSC: SBIN0001234. For prasad, visit our donation page.',
-        'hi' => 'हमारे भक्ति पोर्टल और मंदिर गतिविधियों का समर्थन करने के लिए आप दान कर सकते हैं। UPI: ayodhyarammandir@upi, बैंक: स्टेट बैंक ऑफ इंडिया, खाता: 12345678901, IFSC: SBIN0001234। प्रसाद के लिए हमारे दान पेज पर जाएं।'
-    ],
     'chalisa' => [
         'keywords' => ['chalisa', 'chaupai', 'doha', 'tulsidas'],
         'en' => 'Hanuman Chalisa is a 40-verse hymn by Tulsidas Ji in praise of Hanuman Ji. It is one of the most popular Hindu prayers. Reading Chalisa removes obstacles and brings blessings. You can read the full Chalisa with meaning on our Hanuman Chalisa page.',
@@ -131,7 +126,7 @@ $fallbacks = [
     ],
     'hi' => [
         'जय श्री राम! मैं अभी सीख रहा हूँ। कृपया अयोध्या राम मंदिर, यात्रा गाइड, दर्शन समय, इतिहास, हनुमान जी, या संपर्क जानकारी के बारे में पूछें।',
-        'जय श्री राम! विस्तृत जानकारी के लिए कृपया हमारी वेबसाइट ब्राउज़ करें या हमसे +91-7988145192 पर संपर्क करें।',
+        'जय श्री राम! विस्तृत जानकारी के लिए कृपया हमारी वेबसाइट ब्राउज़ करें या हमसे +91-8168877332 पर संपर्क करें।',
         'जय श्री राम! आप हमारी वेबसाइट पर और जानकारी पा सकते हैं। भगवान राम आपका कल्याण करें!'
     ]
 ];

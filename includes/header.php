@@ -111,10 +111,13 @@ if (empty($mainMenu)) {
     <script type="application/ld+json"><?php echo $pageSchema; ?></script>
     <?php endif; ?>
     
-    <!-- AdSense -->
-    <?php if ($ac = getSetting('adsense_client')): ?>
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=<?php echo e($ac); ?>" crossorigin="anonymous"></script>
-    <?php endif; ?>
+     <!-- Google AdSense global loader.
+          Set the real ca-pub-* value in the adsense_client setting to enable it.
+          Keeping this in the shared header loads it once on every frontend page. -->
+     <?php $adsenseClient = trim((string) getSetting('adsense_client', '')); ?>
+     <?php if ($adsenseClient !== '' && preg_match('/^ca-pub-\d+$/', $adsenseClient)): ?>
+     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=<?php echo e($adsenseClient); ?>" crossorigin="anonymous"></script>
+     <?php endif; ?>
     
     <?php if ($ga = getSetting('google_analytics')): ?>
     <script async src="https://www.googletagmanager.com/gtag/js?id=<?php echo e($ga); ?>"></script>
@@ -132,8 +135,6 @@ if (empty($mainMenu)) {
     .nav-link:hover, .nav-link.active { color: #FFD700 !important; background: rgba(255,215,0,0.1); }
     .navbar-toggler { border-color: rgba(255,215,0,0.3); }
     .navbar-toggler-icon { filter: invert(1); }
-    .btn-donation { background: linear-gradient(135deg, #F55900, #FF8237) !important; color: #fff !important; border-radius: 50px !important; padding: 8px 20px !important; font-weight: 700 !important; margin-left: 8px; }
-    .btn-donation:hover { transform: scale(1.05); box-shadow: 0 5px 15px rgba(245,89,0,0.4); }
     .top-bar { background: linear-gradient(90deg, #F55900, #FF8237); color: #fff; padding: 6px 0; font-size: 13px; }
     .top-bar a { color: rgba(255,255,255,0.9); margin-right: 20px; text-decoration: none; }
     .top-bar a:hover { color: #fff; }
@@ -161,7 +162,6 @@ if (empty($mainMenu)) {
                 <div class="col-md-6 text-end">
                     <a href="<?php echo switchLangUrl('hi'); ?>" class="lang-switch <?php echo $lang === 'hi' ? 'active' : ''; ?>">हिंदी</a>
                     <a href="<?php echo switchLangUrl('en'); ?>" class="lang-switch <?php echo $lang === 'en' ? 'active' : ''; ?>">English</a>
-                    <a href="donation.php" class="ms-3"><i class="fas fa-heart text-warning"></i> <?php echo __t('Donate', 'दान'); ?></a>
                 </div>
             </div>
         </div>
@@ -239,12 +239,6 @@ if (empty($mainMenu)) {
                         </li>
                         <?php endforeach; ?>
                         
-                        <li class="nav-item">
-                            <a class="nav-link btn-donation" href="donation.php">
-                                <i class="fas fa-hand-holding-heart"></i>
-                                <?php echo __t('Donate', 'दान'); ?>
-                            </a>
-                        </li>
                     </ul>
                 </div>
             </nav>

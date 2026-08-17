@@ -49,7 +49,7 @@ if ($path === 'sitemap.xml') {
 }
 
 // Static PHP files
-$staticFiles = ['gallery.php', 'city.php', 'keyword.php', 'contact.php', 'donation.php', 'sitemap.php'];
+$staticFiles = ['gallery.php', 'city.php', 'keyword.php', 'contact.php', 'sitemap.php'];
 foreach ($staticFiles as $sf) {
     if ($path === $sf || $path === rtrim($sf, '.php')) {
         require $docRoot . '/' . $sf;

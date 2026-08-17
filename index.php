@@ -837,24 +837,6 @@ include __DIR__ . '/includes/header.php';
     </div>
 </section>
 
-<!-- ====== ADSENSE / DONATION CTA ====== -->
-<section class="section-padding donation-cta" style="background: linear-gradient(135deg, #F55900, #FF8237);">
-    <div class="container text-center">
-        <div data-aos="zoom-in">
-            <h2 class="text-white display-5 mb-3">🙏 <?php echo __t('Support Ram Mandir Mission', 'राम मंदिर मिशन को सहयोग करें'); ?></h2>
-            <p class="text-white lead mb-4"><?php echo __t('Help us spread the divine message of Shri Ram across India and the world.', 'श्री राम का दिव्य संदेश पूरे भारत और दुनिया में फैलाने में हमारी मदद करें।'); ?></p>
-            <div class="d-flex gap-3 justify-content-center flex-wrap">
-                <a href="donation.php" class="btn btn-light btn-lg px-5 py-3 fw-bold">
-                    <i class="fas fa-hand-holding-heart"></i> <?php echo __t('Donate Now', 'अभी दान करें'); ?>
-                </a>
-                <a href="contact.php" class="btn btn-outline-light btn-lg px-5 py-3">
-                    <i class="fas fa-envelope"></i> <?php echo __t('Contact Us', 'संपर्क करें'); ?>
-                </a>
-            </div>
-        </div>
-    </div>
-</section>
-
 <?php include __DIR__ . '/includes/footer.php'; ?>
 
 <script>

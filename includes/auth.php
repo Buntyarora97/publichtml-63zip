@@ -212,7 +212,6 @@ function getAdminSidebarMenu() {
         ['icon' => 'upload', 'label' => 'User Uploads', 'url' => '/admin/user-uploads.php', 'roles' => ['super_admin', 'admin', 'editor']],
         ['icon' => 'reviews', 'label' => 'Reviews', 'url' => '/admin/reviews.php', 'roles' => ['super_admin', 'admin', 'editor']],
         ['icon' => 'robot', 'label' => 'Chatbot FAQs', 'url' => '/admin/chatbot.php', 'roles' => ['super_admin', 'admin', 'editor']],
-        ['icon' => 'donation', 'label' => 'Donation/Prasad', 'url' => '/admin/donation.php', 'roles' => ['super_admin', 'admin']],
         ['icon' => 'message', 'label' => 'Contact Messages', 'url' => '/admin/messages.php', 'roles' => ['super_admin', 'admin']],
         ['icon' => 'map-pin', 'label' => 'Google Map', 'url' => '/admin/google-map.php', 'roles' => ['super_admin', 'admin']],
         ['icon' => 'seo', 'label' => 'SEO Meta', 'url' => '/admin/seo.php', 'roles' => ['super_admin', 'admin']],

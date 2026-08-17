@@ -969,7 +969,7 @@ CREATE TABLE backups (
 
 -- Default Admin (password: Admin@123 - change after first login)
 INSERT INTO admins (username, password, name, email, phone, role, status) VALUES
-('admin', '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', 'Super Admin', 'info@ayodhyarammandir.in', '7988145192', 'super_admin', 1);
+('admin', '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', 'Super Admin', 'info@ayodhyarammandir.in', '8168877332', 'super_admin', 1);
 
 -- Default Languages
 INSERT INTO site_languages (lang_code, lang_name, lang_name_native, is_default, is_active, sort_order) VALUES
@@ -985,10 +985,10 @@ INSERT INTO settings (setting_key, setting_value, setting_label, setting_group) 
 ('site_logo', 'assets/images/logo.png', 'Site Logo', 'general'),
 ('site_favicon', 'assets/images/favicon.ico', 'Site Favicon', 'general'),
 ('site_email', 'info@ayodhyarammandir.in', 'Site Email', 'general'),
-('site_phone', '7988145192', 'Site Phone', 'general'),
+('site_phone', '8168877332', 'Site Phone', 'general'),
 ('site_address', 'Ayodhya Dham, Uttar Pradesh, India', 'Site Address', 'general'),
 ('footer_logo', 'assets/images/footer-logo.png', 'Footer Logo', 'general'),
-('contact_whatsapp', '917988145192', 'WhatsApp Number', 'contact'),
+('contact_whatsapp', '918168877332', 'WhatsApp Number', 'contact'),
 ('google_map', '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3560.7640!2d82.1949!3d26.7956!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399be9c0091e5e2f%3A0x34447c3f5733578c!2sShri%20Ram%20Janmabhoomi!5e0!3m2!1sen!2sin!4v1704000000000!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>', 'Google Map Embed', 'contact'),
 ('seo_default_title', 'Ayodhya Ram Mandir - Complete Guide to Shri Ram & Ayodhya', 'Default SEO Title', 'seo'),
 ('seo_default_description', 'Ayodhya Ram Mandir - Your complete devotional guide to Shri Ram, Ram Lalla, Ramayan, Hanuman Ji, Mata Sita, Ayodhya travel, aarti, bhajan, kundli and more.', 'Default SEO Description', 'seo'),
@@ -1062,7 +1062,6 @@ INSERT INTO footer_links (column_name, title, title_hi, url, sort_order, status)
 INSERT INTO footer_links (column_name, title, title_hi, url, sort_order, status) VALUES
 ('column4', 'Blog', 'ब्लॉग', '/blog', 1, 1),
 ('column4', 'Reviews', 'समीक्षाएं', '/reviews', 2, 1),
-('column4', 'Prasad & Donation', 'प्रसाद और दान', '/donation', 3, 1),
 ('column4', 'Disclaimer', 'अस्वीकरण', '/disclaimer', 4, 1),
 ('column4', 'Copyright Policy', 'कॉपीराइट नीति', '/copyright-policy', 5, 1);
 

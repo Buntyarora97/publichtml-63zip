@@ -533,7 +533,6 @@ if (!isset($admin)) {
                 'upload'     => 'upload',
                 'reviews'    => 'star-half-alt',
                 'robot'      => 'robot',
-                'donation'   => 'donate',
                 'message'    => 'envelope',
                 'map-pin'    => 'map-marker-alt',
                 'seo'        => 'search',

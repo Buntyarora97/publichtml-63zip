@@ -184,11 +184,6 @@ include __DIR__ . '/includes/header.php';
                         </ul>
                     </div>
                     
-                    <div class="sidebar-widget text-center" style="background:linear-gradient(135deg,#F55900,#FF8237);color:#fff;">
-                        <i class="fas fa-hand-holding-heart fa-2x mb-3"></i>
-                        <h4 style="color:#fff"><?php echo __t('Donate for Ram Mandir','राम मंदिर के लिए दान'); ?></h4>
-                        <a href="donation.php" class="btn btn-light btn-sm mt-2 fw-bold"><?php echo __t('Donate Now','अभी दान करें'); ?></a>
-                    </div>
                 </div>
             </div>
         </div>

@@ -77,7 +77,7 @@ $specialPages = [
     'daily-suvichar', 'kundli', 'kundli-milan', 'daily-rashifal', 'panchang-today',
     'ayodhya-guide', 'how-to-reach-ayodhya', 'places-to-visit-in-ayodhya',
     'ayodhya-trip-planner', 'ram-navami-guide', 'ayodhya-deepotsav-guide',
-    'gallery', 'reviews', 'blog', 'donation', 'prasad',
+    'gallery', 'reviews', 'blog', 'prasad',
     'about-us', 'contact', 'privacy-policy', 'terms-conditions', 'disclaimer',
     'copyright-policy', 'refund-policy'
 ];
@@ -351,7 +351,6 @@ include __DIR__ . '/includes/header.php';
                     <h5><i class="fas fa-bolt" style="color: var(--color-primary);"></i> <?php echo __t('Quick Links', 'त्वरित लिंक'); ?></h5>
                     <div class="d-grid gap-2">
                         <a href="<?php echo pageUrl('live-aarti'); ?>" class="btn btn-sm" style="background: linear-gradient(135deg, var(--color-primary), var(--color-secondary)); color: #fff;"><i class="fas fa-om"></i> <?php echo __t('Live Aarti', 'लाइव आरती'); ?></a>
-                        <a href="<?php echo pageUrl('donation'); ?>" class="btn btn-sm" style="background: linear-gradient(135deg, var(--color-secondary), var(--color-accent)); color: #fff;"><i class="fas fa-hand-holding-heart"></i> <?php echo __t('Donate', 'दान करें'); ?></a>
                         <a href="<?php echo pageUrl('contact'); ?>" class="btn btn-sm" style="background: var(--color-bg); border: 1px solid var(--color-light); color: var(--color-primary);"><i class="fas fa-envelope"></i> <?php echo __t('Contact Us', 'संपर्क करें'); ?></a>
                     </div>
                 </div>
