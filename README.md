@@ -286,13 +286,15 @@ For any issues or questions:
 
 ## SHARED HOSTING DATABASE FIX
 
-The current source is configured for a Hostinger-style MySQL database. The
-latest database export uploaded with this project uses:
+The current source is configured for the live Hostinger-style MySQL database
+shown in the uploaded phpMyAdmin screenshot:
 
-- Database: `u872449974_rammandir`
-- User: `u872449974_rammandir`
-- Host: `localhost`
+- Database: `u518916069_rammandir`
+- User: `u518916069_rammandir`
+- Host: `127.0.0.1`
 
+The uploaded SQL filename starts with `u872449974`, but that is not the live
+database shown in phpMyAdmin. Do not use that prefix for the live connection.
 If your Hostinger hPanel shows a different database name, user, or password,
 update the matching `DB_*` values in `includes/config/database.php`. The
 password is not included in the SQL backup.

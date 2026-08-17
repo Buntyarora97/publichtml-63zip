@@ -13,16 +13,16 @@ ini_set('log_errors', '1');
 /*
  * Hostinger/cPanel normally prefixes the database and username with the
  * hosting account ID.  The latest uploaded backup is from:
- *   u872449974_rammandir
+ *   u518916069_rammandir
  *
  * Keep these values overridable so the same code can be used locally and on
  * shared hosting.  On Hostinger, replace only DB_PASS if the database user
  * has a different password.
  */
-define('DB_HOST', getenv('DB_HOST') ?: 'localhost');
+define('DB_HOST', getenv('DB_HOST') ?: '127.0.0.1');
 define('DB_PORT', getenv('DB_PORT') ?: '3306');
-define('DB_NAME', getenv('DB_NAME') ?: 'u872449974_rammandir');
-define('DB_USER', getenv('DB_USER') ?: 'u872449974_rammandir');
+define('DB_NAME', getenv('DB_NAME') ?: 'u518916069_rammandir');
+define('DB_USER', getenv('DB_USER') ?: 'u518916069_rammandir');
 define('DB_PASS', getenv('DB_PASS') ?: 'Buntytech@#000#@');
 define('DB_CHARSET', 'utf8mb4');
 
