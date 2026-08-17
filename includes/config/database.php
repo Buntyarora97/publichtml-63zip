@@ -36,7 +36,8 @@ define(
 define('ADMIN_URL', SITE_URL . '/admin');
 define('ASSETS_URL', SITE_URL . '/assets');
 
-define('ROOT_PATH', dirname(__DIR__));
+// This file lives in /includes/config; the application root is two levels up.
+define('ROOT_PATH', dirname(__DIR__, 2));
 define('ASSETS_PATH', ROOT_PATH . '/assets');
 define('UPLOADS_PATH', ASSETS_PATH . '/uploads');
 

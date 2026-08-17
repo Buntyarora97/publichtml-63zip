@@ -123,7 +123,7 @@
 5. Click "Go" to import all tables
 
 ### Step 4: Update Database Config
-1. Open file: `config/database.php`
+1. Open file: `includes/config/database.php`
 2. Update these lines with your Hostinger database credentials:
 ```php
 define('DB_HOST', 'localhost');     // Usually localhost
@@ -143,7 +143,8 @@ assets/uploads/          - 755 (writable)
 assets/uploads/gallery/  - 755 (writable)
 assets/uploads/blogs/    - 755 (writable)
 assets/uploads/media/    - 755 (writable)
-config/database.php      - 644
+ config/database.php      - 644 (compatibility loader)
+ includes/config/database.php - 644 (database settings)
 ```
 
 ### Step 6: Admin Login
@@ -219,9 +220,10 @@ ayodhyarammandir/
    gallery/
    blogs/
    media/
- config/
-  database.php          # Database config
+  config/
+   database.php          # Compatibility loader
  includes/
+   config/database.php   # Database config
   header.php            # Frontend header
   footer.php            # Frontend footer
   functions.php         # Core functions
