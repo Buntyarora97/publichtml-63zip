@@ -284,6 +284,34 @@ For any issues or questions:
 
 ---
 
+## SHARED HOSTING DATABASE FIX
+
+The current source is configured for a Hostinger-style MySQL database. The
+latest database export uploaded with this project uses:
+
+- Database: `u872449974_rammandir`
+- User: `u872449974_rammandir`
+- Host: `localhost`
+
+If your Hostinger hPanel shows a different database name, user, or password,
+update the matching `DB_*` values in `includes/config/database.php`. The
+password is not included in the SQL backup.
+
+After importing the database backup in phpMyAdmin, also import
+`hosting-database-fix.sql`. It adds the `keyword_pages` table required by the
+admin dashboard, keyword pages, and sitemap.
+
+The `.htaccess` file no longer contains `php_value` directives because those
+can cause HTTP 500 on Hostinger's LiteSpeed/PHP-FPM handler. The equivalent
+settings are in `.user.ini`.
+
+If the site still shows HTTP 500, open Hostinger hPanel → Websites → Manage →
+Errors, and check the PHP error log. The most common remaining cause is an
+incorrect MySQL password or a database user that has not been assigned to the
+database with full privileges.
+
+---
+
 ## JAI SHRI RAM!
 
 This portal is created with devotion to help spread the divine knowledge of Shri Ram, Ramayan, and Ayodhya Dham to the world.

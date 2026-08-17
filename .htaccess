@@ -36,12 +36,6 @@ RewriteRule ^blog/([a-zA-Z0-9_-]+)/?$ page.php?slug=$1&type=blog [QSA,L]
 # Page routing - all URLs go to page.php with slug parameter
 RewriteRule ^([a-zA-Z0-9_-]+)/?$ page.php?slug=$1 [QSA,L]
 
-# PHP settings
-php_value upload_max_filesize 64M
-php_value post_max_size 64M
-php_value max_execution_time 300
-php_value max_input_time 300
-
 # Security headers
 <IfModule mod_headers.c>
     Header always set X-Frame-Options "SAMEORIGIN"
@@ -56,13 +50,11 @@ Options -Indexes
 
 # Protect sensitive files
 <FilesMatch "^\.">
-    Order allow,deny
-    Deny from all
+    Require all denied
 </FilesMatch>
 
 <FilesMatch "(\.sql|\.log|\.ini|\.bak)$">
-    Order allow,deny
-    Deny from all
+    Require all denied
 </FilesMatch>
 
 # Enable GZIP compression

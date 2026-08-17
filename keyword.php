@@ -136,7 +136,7 @@ include __DIR__ . '/includes/header.php';
                 <div class="mt-5" data-aos="fade-up">
                     <h2><?php echo __t('Related Topics','संबंधित विषय'); ?></h2>
                     <?php
-                    $relatedKws = dbFetchAll("SELECT * FROM keyword_pages WHERE slug != ? AND status = 1 ORDER BY RANDOM() LIMIT 12", [$slug]);
+                    $relatedKws = dbFetchAll("SELECT * FROM keyword_pages WHERE slug != ? AND status = 1 ORDER BY RAND() LIMIT 12", [$slug]);
                     ?>
                     <div class="city-tags-cloud" style="margin-top:16px">
                         <?php foreach ($relatedKws as $rk):

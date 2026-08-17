@@ -279,7 +279,7 @@ include __DIR__ . '/includes/header.php';
                         <h3 class="sidebar-title"><i class="fas fa-city"></i> <?php echo __t('Nearby Cities','नजदीकी शहर'); ?></h3>
                         <div class="city-tags-cloud" style="justify-content:flex-start">
                             <?php
-                            $nearbyCities = dbFetchAll("SELECT * FROM city_pages WHERE slug != ? AND status = 1 ORDER BY RANDOM() LIMIT 8", [$slug]);
+                            $nearbyCities = dbFetchAll("SELECT * FROM city_pages WHERE slug != ? AND status = 1 ORDER BY RAND() LIMIT 8", [$slug]);
                             foreach ($nearbyCities as $nc):
                                 $ncName = $lang === 'hi' ? ($nc['city_name_hi'] ?? $nc['city_name']) : $nc['city_name'];
                             ?>
