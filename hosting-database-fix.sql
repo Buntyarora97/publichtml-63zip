@@ -45,10 +45,14 @@ SET `phone` = '8168877332'
 WHERE `phone` IN ('7988145192', '917988145192');
 
 INSERT INTO `settings` (`setting_key`, `setting_value`, `setting_label`, `setting_group`, `is_public`)
-SELECT 'adsense_client', '', 'AdSense Publisher ID (ca-pub-...)', 'adsense', 1
+SELECT 'adsense_client', 'ca-pub-1656864510786020', 'AdSense Publisher ID (ca-pub-...)', 'adsense', 1
 WHERE NOT EXISTS (
     SELECT 1 FROM `settings` WHERE `setting_key` = 'adsense_client'
 );
+
+UPDATE `settings`
+SET `setting_value` = 'ca-pub-1656864510786020'
+WHERE `setting_key` = 'adsense_client';
 
 UPDATE `footer_links`
 SET `status` = 0

@@ -990,6 +990,7 @@ INSERT INTO settings (setting_key, setting_value, setting_label, setting_group) 
 ('footer_logo', 'assets/images/footer-logo.png', 'Footer Logo', 'general'),
 ('contact_whatsapp', '918168877332', 'WhatsApp Number', 'contact'),
 ('google_map', '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3560.7640!2d82.1949!3d26.7956!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399be9c0091e5e2f%3A0x34447c3f5733578c!2sShri%20Ram%20Janmabhoomi!5e0!3m2!1sen!2sin!4v1704000000000!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>', 'Google Map Embed', 'contact'),
+('adsense_client', 'ca-pub-1656864510786020', 'AdSense Publisher ID', 'adsense'),
 ('seo_default_title', 'Ayodhya Ram Mandir - Complete Guide to Shri Ram & Ayodhya', 'Default SEO Title', 'seo'),
 ('seo_default_description', 'Ayodhya Ram Mandir - Your complete devotional guide to Shri Ram, Ram Lalla, Ramayan, Hanuman Ji, Mata Sita, Ayodhya travel, aarti, bhajan, kundli and more.', 'Default SEO Description', 'seo'),
 ('seo_default_keywords', 'Ayodhya Ram Mandir, Shri Ram, Ram Lalla, Ramayan, Hanuman Ji, Ayodhya travel, Ram Mandir darshan, Ram aarti, Ram bhajan', 'Default SEO Keywords', 'seo'),

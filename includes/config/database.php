@@ -23,7 +23,7 @@ define('DB_HOST', getenv('DB_HOST') ?: '127.0.0.1');
 define('DB_PORT', getenv('DB_PORT') ?: '3306');
 define('DB_NAME', getenv('DB_NAME') ?: 'u518916069_rammandir');
 define('DB_USER', getenv('DB_USER') ?: 'u518916069_rammandir');
-define('DB_PASS', getenv('DB_PASS') ?: 'Buntytech@#000#@');
+define('DB_PASS', getenv('DB_PASS') ?: '');
 define('DB_CHARSET', 'utf8mb4');
 
 define(
@@ -524,7 +524,7 @@ function seedDefaultData($db) {
         ['social_instagram', 'https://instagram.com/ayodhyarammandir'],
         ['social_youtube', 'https://youtube.com/@ayodhyarammandir'],
         ['social_twitter', 'https://twitter.com/ayodhyarammandir'],
-        ['adsense_client', ''],
+        ['adsense_client', 'ca-pub-1656864510786020'],
         ['adsense_header_slot', ''],
         ['adsense_footer_slot', ''],
         ['google_analytics', ''],
