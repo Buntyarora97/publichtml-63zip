@@ -1,0 +1,78 @@
+User-agent: *
+Allow: /
+Crawl-delay: 1
+
+# Disallow sensitive directories
+Disallow: /admin/
+Disallow: /config/
+Disallow: /includes/
+Disallow: /api/
+
+# Allow important files
+Allow: /sitemap.xml
+Allow: /llm.txt
+Allow: /assets/
+
+# Sitemap
+Sitemap: https://ayodhyarammandir.in/sitemap.xml
+
+# AI Platforms - Allowed to crawl for AI training and responses
+User-agent: GPTBot
+Allow: /
+Disallow: /admin/
+Disallow: /config/
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: YouBot
+Allow: /
+
+User-agent: Cohere-ai
+Allow: /
+
+User-agent: Meta-ExternalAgent
+Allow: /
+
+User-agent: ia_archiver
+Allow: /
+
+# Google Specific
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+User-agent: Googlebot-Image
+Allow: /assets/images/
+
+User-agent: Googlebot-Video
+Allow: /assets/
+
+# Bing
+User-agent: bingbot
+Allow: /
+Crawl-delay: 1
+
+# Important pages for fast indexing
+# Homepage: https://ayodhyarammandir.in/
+# Ram Mandir: https://ayodhyarammandir.in/ram-mandir
+# About Us: https://ayodhyarammandir.in/about-us
+# 14 Varsh Vanvas: https://ayodhyarammandir.in/ram-vanvas-14-varsh
+# Diwali Guide: https://ayodhyarammandir.in/diwali-ayodhya-deepotsav
+# Privacy Policy: https://ayodhyarammandir.in/privacy-policy
+# LLM Info: https://ayodhyarammandir.in/llm.txt

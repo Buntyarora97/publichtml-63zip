@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+<!-- Homepage -->
+<url>
+    <loc>https://ayodhyarammandir.in/</loc>
+    <lastmod>2026-06-28</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://ayodhyarammandir.in/?lang=hi"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ayodhyarammandir.in/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ayodhyarammandir.in/"/>
+</url>
+
+<!-- Core Pages -->
+<url><loc>https://ayodhyarammandir.in/ram-mandir</loc><lastmod>2026-06-28</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+<url><loc>https://ayodhyarammandir.in/shri-ram</loc><lastmod>2026-06-28</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+<url><loc>https://ayodhyarammandir.in/shri-ram-janam-katha</loc><lastmod>2026-06-28</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+<url><loc>https://ayodhyarammandir.in/ramayan</loc><lastmod>2026-06-28</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+<url><loc>https://ayodhyarammandir.in/hanuman-ji</loc><lastmod>2026-06-28</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+<url><loc>https://ayodhyarammandir.in/hanuman-chalisa</loc><lastmod>2026-06-28</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+<url><loc>https://ayodhyarammandir.in/mata-sita</loc><lastmod>2026-06-28</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+<url><loc>https://ayodhyarammandir.in/ayodhya-guide</loc><lastmod>2026-06-28</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+<url><loc>https://ayodhyarammandir.in/how-to-reach-ayodhya</loc><lastmod>2026-06-28</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+<url><loc>https://ayodhyarammandir.in/places-to-visit-in-ayodhya</loc><lastmod>2026-06-28</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+<url><loc>https://ayodhyarammandir.in/live-aarti</loc><lastmod>2026-06-28</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
+<url><loc>https://ayodhyarammandir.in/aarti-bhajan</loc><lastmod>2026-06-28</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+<url><loc>https://ayodhyarammandir.in/daily-suvichar</loc><lastmod>2026-06-28</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ayodhyarammandir.in/kundli-rashifal</loc><lastmod>2026-06-28</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ayodhyarammandir.in/daily-rashifal</loc><lastmod>2026-06-28</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ayodhyarammandir.in/panchang-today</loc><lastmod>2026-06-28</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ayodhyarammandir.in/kundli</loc><lastmod>2026-06-28</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+<url><loc>https://ayodhyarammandir.in/kundli-milan</loc><lastmod>2026-06-28</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+<url><loc>https://ayodhyarammandir.in/gallery</loc><lastmod>2026-06-28</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
+<url><loc>https://ayodhyarammandir.in/reviews</loc><lastmod>2026-06-28</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
+<url><loc>https://ayodhyarammandir.in/blog</loc><lastmod>2026-06-28</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
+<url><loc>https://ayodhyarammandir.in/donation</loc><lastmod>2026-06-28</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
+<url><loc>https://ayodhyarammandir.in/about-us</loc><lastmod>2026-06-28</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
+<url><loc>https://ayodhyarammandir.in/contact</loc><lastmod>2026-06-28</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
+<url><loc>https://ayodhyarammandir.in/privacy-policy</loc><lastmod>2026-06-28</lastmod><changefreq>yearly</changefreq><priority>0.3</priority></url>
+<url><loc>https://ayodhyarammandir.in/terms-conditions</loc><lastmod>2026-06-28</lastmod><changefreq>yearly</changefreq><priority>0.3</priority></url>
+<url><loc>https://ayodhyarammandir.in/disclaimer</loc><lastmod>2026-06-28</lastmod><changefreq>yearly</changefreq><priority>0.3</priority></url>
+<url><loc>https://ayodhyarammandir.in/copyright-policy</loc><lastmod>2026-06-28</lastmod><changefreq>yearly</changefreq><priority>0.3</priority></url>
+<url><loc>https://ayodhyarammandir.in/refund-policy</loc><lastmod>2026-06-28</lastmod><changefreq>yearly</changefreq><priority>0.3</priority></url>
+
+<!-- Ramayan Pages -->
+<url><loc>https://ayodhyarammandir.in/sita-swayamvar</loc><lastmod>2026-06-28</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+<url><loc>https://ayodhyarammandir.in/shri-ram-vanvas</loc><lastmod>2026-06-28</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+<url><loc>https://ayodhyarammandir.in/bharat-milap</loc><lastmod>2026-06-28</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+<url><loc>https://ayodhyarammandir.in/panchvati</loc><lastmod>2026-06-28</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+<url><loc>https://ayodhyarammandir.in/sita-haran</loc><lastmod>2026-06-28</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+<url><loc>https://ayodhyarammandir.in/jatayu-story</loc><lastmod>2026-06-28</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+<url><loc>https://ayodhyarammandir.in/shabri-katha</loc><lastmod>2026-06-28</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+<url><loc>https://ayodhyarammandir.in/lanka-dahan</loc><lastmod>2026-06-28</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+<url><loc>https://ayodhyarammandir.in/ram-setu</loc><lastmod>2026-06-28</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+<url><loc>https://ayodhyarammandir.in/lanka-yudh</loc><lastmod>2026-06-28</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+<url><loc>https://ayodhyarammandir.in/ravan-vadh</loc><lastmod>2026-06-28</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+<url><loc>https://ayodhyarammandir.in/ayodhya-wapsi</loc><lastmod>2026-06-28</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+<url><loc>https://ayodhyarammandir.in/ram-rajya</loc><lastmod>2026-06-28</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+
+<!-- Character Pages -->
+<url><loc>https://ayodhyarammandir.in/vishnu-avatar-story</loc><lastmod>2026-06-28</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+<url><loc>https://ayodhyarammandir.in/raja-dashrath-story</loc><lastmod>2026-06-28</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+<url><loc>https://ayodhyarammandir.in/mata-kaushalya-story</loc><lastmod>2026-06-28</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+<url><loc>https://ayodhyarammandir.in/mata-kaikeyi-story</loc><lastmod>2026-06-28</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+<url><loc>https://ayodhyarammandir.in/mata-sumitra-story</loc><lastmod>2026-06-28</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+<url><loc>https://ayodhyarammandir.in/lakshman-ji-story</loc><lastmod>2026-06-28</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+<url><loc>https://ayodhyarammandir.in/bharat-ji-story</loc><lastmod>2026-06-28</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+<url><loc>https://ayodhyarammandir.in/shatrughna-ji-story</loc><lastmod>2026-06-28</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+<url><loc>https://ayodhyarammandir.in/mata-sita-janam-katha</loc><lastmod>2026-06-28</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+<url><loc>https://ayodhyarammandir.in/mata-sita-ki-mahima</loc><lastmod>2026-06-28</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+<url><loc>https://ayodhyarammandir.in/hanuman-ji-birth-story</loc><lastmod>2026-06-28</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+<url><loc>https://ayodhyarammandir.in/hanuman-chalisa-meaning</loc><lastmod>2026-06-28</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+
+</urlset>

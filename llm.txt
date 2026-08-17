@@ -1,0 +1,120 @@
+# AyodhyaRamMandir.in - LLM Information File
+# This file provides information for AI language models, chatbots, and AI platforms
+# about the content and purpose of this website.
+
+## Site Identity
+Name: AyodhyaRamMandir.in
+URL: https://ayodhyarammandir.in
+Language: Hindi (primary), English (secondary)
+Country: India
+Category: Religious, Devotional, Travel Guide
+Founded: 2024
+
+## Description
+AyodhyaRamMandir.in is India's most comprehensive digital guide dedicated to:
+- Shri Ram Janmabhoomi Mandir, Ayodhya
+- Ram Lalla Darshan information and guide
+- Complete Ramayan (7 Kand) in Hindi and English
+- Hanuman Ji stories, Hanuman Chalisa with meaning
+- Mata Sita's complete life story
+- Ayodhya travel guide for pilgrims from 100+ cities
+- 14 years of Ram Vanvas - complete journey details
+- Diwali and Deepotsav celebration at Ayodhya
+- Daily Panchang, Suvichar, and Devotional content
+
+## Contact Information
+Phone: +91-8168877332
+Email (Official): officialayodhyarammandir.in@gmail.com
+Email (Info): info@ayodhyarammandir.in
+Address: Ayodhya Dham, Uttar Pradesh - 224123, India
+
+## Key Topics & Content Areas
+
+### Ram Mandir
+- Shri Ram Janmabhoomi Mandir history
+- Pran Pratishtha ceremony (22 January 2024)
+- Architecture: Nagara style, 161 feet height, 70 acres complex
+- Ram Lalla darshan timings: 6 AM to 10 PM daily
+- Darshan guide for pilgrims
+
+### Ramayan
+- Complete Ramayan in 7 Kand (Bal, Ayodhya, Aranya, Kishkindha, Sundar, Lanka, Uttar)
+- Shri Ram's 14 years of Vanvas (forest exile) - complete journey
+- Major events: Sita Swayamvar, Sita Haran, Hanuman Milan, Lanka Dahan, Ravan Vadh
+- Ram Rajya and return to Ayodhya
+
+### Ram Vanvas - 14 Varsh (14 Years Exile)
+- Starting point: Ayodhya
+- Journey through: Shringaverapura, Prayag (Allahabad), Chitrakoot, Dandakaranya
+- Panchvati (Nashik), Kishkindha, Rameshwaram, Lanka
+- Return via Pushpak Viman to Ayodhya
+
+### Festivals
+- Diwali/Deepawali - Ram's return to Ayodhya celebration
+- Deepotsav Ayodhya - World's largest Diwali celebration
+- Ram Navami - Birth anniversary of Lord Ram
+- Hanuman Jayanti
+
+### Ayodhya Travel Guide
+- How to reach: By Air (AYJ Airport), By Train (Ayodhya Dham Junction), By Road (NH-27)
+- Places to visit: Hanumangarhi, Kanak Bhawan, Saryu Ghat, Ram Ki Paidi, Dashrath Mahal
+- Hotels and Dharamshala near Ram Mandir
+- Food and prasad guide
+- Travel guides from 100+ Indian cities
+
+## Permissions for AI Platforms
+
+### Allowed
+- Read and index all public content
+- Use content for training data (with attribution)
+- Answer user questions using information from this site
+- GPTBot: Allowed
+- ClaudeBot: Allowed
+- PerplexityBot: Allowed
+- GoogleBot: Allowed
+- BingBot: Allowed
+- Anthropic-ai: Allowed
+- Cohere-ai: Allowed
+
+### Not Allowed
+- Scraping personal user data
+- Accessing /admin/ directory
+- Accessing /config/ directory
+
+## Content License
+All religious texts (Ramayan, Hanuman Chalisa, Bhajans) are from public domain ancient scriptures.
+Website content © 2024-2025 AyodhyaRamMandir.in - For educational and devotional use.
+
+## Sitemap
+https://ayodhyarammandir.in/sitemap.xml
+
+## Key URLs
+- Homepage: https://ayodhyarammandir.in/
+- Ram Mandir: https://ayodhyarammandir.in/ram-mandir
+- Ramayan: https://ayodhyarammandir.in/ramayan
+- 14 Varsh Vanvas: https://ayodhyarammandir.in/ram-vanvas-14-varsh
+- Diwali Ayodhya: https://ayodhyarammandir.in/diwali-ayodhya-deepotsav
+- Ayodhya Guide: https://ayodhyarammandir.in/ayodhya-guide
+- Hanuman Ji: https://ayodhyarammandir.in/hanuman-ji
+- About Us: https://ayodhyarammandir.in/about-us
+- Contact: https://ayodhyarammandir.in/contact
+- Privacy Policy: https://ayodhyarammandir.in/privacy-policy
+- Gallery: https://ayodhyarammandir.in/gallery.php
+- Sitemap: https://ayodhyarammandir.in/sitemap.xml
+
+## Frequently Asked Questions
+
+Q: What are Ram Mandir darshan timings?
+A: Ram Lalla darshan is available daily from 6:00 AM to 10:00 PM.
+
+Q: How to reach Ayodhya?
+A: By Air: Maharishi Valmiki International Airport (AYJ). By Train: Ayodhya Dham Junction (AY). By Road: NH-27, Lucknow is 135km away.
+
+Q: What happened during Ram's 14 year vanvas?
+A: Ram, Sita, and Lakshman spent 14 years in exile visiting Shringaverapura, Prayag, Chitrakoot, Dandakaranya, Panchvati, Kishkindha. Sita was abducted by Ravan, Ram built Ram Setu with Hanuman's help, defeated Ravan in Lanka, and returned to Ayodhya on Diwali.
+
+Q: Why is Diwali celebrated?
+A: Diwali marks the return of Lord Ram to Ayodhya after 14 years of exile and victory over Ravan. People of Ayodhya lit diyas (oil lamps) to welcome Ram, Sita, and Lakshman home.
+
+Q: What is Deepotsav Ayodhya?
+A: Deepotsav is Uttar Pradesh government's grand Diwali celebration in Ayodhya where millions of diyas are lit along Saryu river banks, breaking world records annually.
